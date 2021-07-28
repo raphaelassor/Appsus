@@ -1,0 +1,121 @@
+.reviews-section{
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.reviews-section h2 svg{
+    width:1.5rem
+}
+.btn-add-review{
+    padding:0.5em;
+   border:none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color:#ffd000;
+    align-self:center;
+}
+.add-review-modal{
+    position: absolute;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fbfbfb;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 2rem 0;
+    border-radius: 4px;
+    padding: 2rem 1.5rem;
+}
+.add-review-modal input,
+.add-review-modal textarea,
+.add-review-modal{
+    border: 1px solid rgb(206, 203, 203);
+    border-radius:4px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-review-modal input,
+.add-review-modal textarea{
+    padding:8px 10px;
+}
+
+.add-review-modal form{
+    display: flex;
+    flex-direction: column;
+   width:100%;
+    margin:0 auto;
+    
+}
+.add-review-modal h2{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(206, 203, 203);
+}
+.add-review-modal input{
+    height: 2rem;
+    
+    margin-bottom: 0.5rem;
+}
+.add-review-modal textarea{
+    border:none;
+margin-bottom:1.5rem;
+border-radius: 4px;
+resize: none;
+}
+.add-review-modal .btn-close{
+    background-color: transparent;
+    border:1px solid black; 
+}
+
+.review-rating-stars svg path{
+    stroke-width: 2px;
+    }
+    .review-rating-stars svg{
+        width:2rem
+    }
+    .star-active path{
+        fill: #ffd000;
+        
+    }
+    .rating-stars-display{
+        display:flex;
+    }
+    .rating-stars-display svg{
+        width:1.5rem;
+        margin-inline-end: 0.25rem;
+    }
+    
+   .reviews-list{
+       padding: 1rem;
+       max-height: 40rem;
+       overflow: scroll;
+       scrollbar-width: 0;
+       
+   } 
+    /* REVIEW DISPLAY*/
+.single-review{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+.single-review h4{
+    font-size: 1.2rem;
+    margin-inline-end: 0.5rem;
+}
+.single-review span{
+    color: grey;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+.rating-stars-display{
+    margin-top: 0.5rem;
+}
+.single-review button{
+    background-color: transparent;
+    border:none;
+    padding:none;
+}
+.single-review button svg{
+    width:0.6rem
+}
+.single-review button svg path{
+    fill:rgb(209, 20, 20)
+}

@@ -1,0 +1,54 @@
+.email-composer-container {
+  align-self: flex-end;
+  z-index: 10;
+  position: absolute;
+  border: 0.5px solid rgb(212, 212, 212);
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-height: 400px;
+  background-color: inherit;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 0.3s;
+}
+
+.composer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+h4 {
+  margin: 0;
+}
+.composer input,
+textarea {
+  border: transparent;
+  border-bottom: 1px black solid;
+  background-color: inherit;
+  color: inherit;
+}
+
+.compose-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-height: 20px;
+}
+
+.composer-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.composer-actions button {
+  border: 0.5px solid rgb(212, 212, 212);
+  border-radius: 8px;
+  min-width: 70px;
+  width: auto;
+  height: 30px;
+}

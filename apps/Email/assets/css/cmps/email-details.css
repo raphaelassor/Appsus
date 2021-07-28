@@ -1,0 +1,48 @@
+.email-details {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px 20px;
+  height: 1000px;
+  overflow: auto;
+}
+
+.email-details h2,
+h4 {
+  border-bottom: 0.5px solid rgb(212, 212, 212);
+  width: fit-content;
+}
+
+.email-details .details-time {
+  align-self: flex-end;
+}
+.email-details .email-actions button {
+  align-self: flex-start;
+  border: transparent;
+  background-color: transparent;
+}
+
+.email-details button {
+  align-self: flex-start;
+  border: transparent;
+  background-color: transparent;
+}
+
+.email-details svg {
+  width: 25px;
+  height: 25px;
+}
+
+.email-actions {
+  padding-top: 40px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.email-details .starred {
+  color: rgb(202, 202, 0);
+}

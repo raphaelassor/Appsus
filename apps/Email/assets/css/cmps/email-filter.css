@@ -1,0 +1,43 @@
+.list-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px 5px 40px;
+  border-bottom: 0.5px solid rgb(212, 212, 212);
+  border: #0051e7 5px solid;
+  border-radius: 8px;
+}
+
+.email-filter {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 50px;
+  flex-grow: 2;
+}
+.email-filter input,
+select {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 200px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.compose-button-container {
+  flex: grow 1;
+  min-width: 300px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.compose-button,
+.clear-filter {
+  border: 0.5px solid rgb(212, 212, 212);
+  border-radius: 8px;
+  width: 90px;
+  height: 40px;
+}

@@ -1,0 +1,122 @@
+.email-app {
+  font-family: SourceSansPro;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.dark {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+.dark-toggle-text {
+  display: inline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.email-greet {
+  text-align: center;
+}
+
+.email-app button {
+  background-color: transparent;
+  border: 0.5px solid rgb(212, 212, 212);
+  color: #0051e7;
+  font-weight: bold;
+}
+
+.email-app button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  transition: 0.3s;
+}
+
+.emails-main-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 3px;
+  background-color: inherit;
+  min-height: 85vh;
+}
+
+.email-display {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  background-color: inherit;
+}
+
+/*------------------ Switch --------------- */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

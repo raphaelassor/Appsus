@@ -1,0 +1,65 @@
+.nav-apps-container{
+    position: relative;
+    align-self: center;
+    width:15rem
+}
+.nav-apps-icon-container{
+display: flex;
+justify-content: flex-end;
+}
+.nav-apps-container svg{
+    width:2rem;
+    height: 2rem;
+    
+    
+} 
+.apps-list{
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    position: absolute;
+    border-radius: 8px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,70px);
+    width:100%;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    background-color: rgb(255 255 255);
+
+}
+.apps-list svg{
+    width:3rem
+}
+.apps-list svg path{
+    color: black;
+}
+.apps-list a{
+    padding:0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    border-radius: 4px;
+
+}
+.apps-list a:hover{
+   background-color: #2962fe38
+}
+.apps-list span{
+    color: grey;
+    margin-top: 0.3rem;
+}
+.apps-list li{
+    margin: 0;
+}
+.apps-list .icon-home path{
+    fill:grey
+}
+.apps-list .icon-email path{
+fill:#DB4437;
+}
+.apps-list .icon-note-text path{
+fill: #F4B400;
+}
+.apps-list .icon-book path{
+fill:#4285F4;
+}

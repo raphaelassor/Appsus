@@ -1,0 +1,92 @@
+.header-search-container{
+width:100%;
+
+position: relative;
+align-self: flex-end;
+justify-content: center;
+margin: 2rem auto;
+margin-bottom: 2rem;
+}
+.add-search-bar{
+    min-width: 100%;
+    display: flex;
+    font-size: .875rem;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(226, 223, 223);
+    outline: none;
+
+}
+.add-search-bar, .add-search-bar-results {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 8px;
+    border: 1px solid rgb(226, 223, 223);
+}
+.add-search-bar-results{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+   
+   
+}
+.book-result-preview{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 7px;
+    transition: .2s;
+  
+}
+.book-result-preview:hover{
+    background-color: rgb(236, 235, 235);
+}
+
+.book-result-preview .search-res-title{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.book-result-preview .search-res-author{
+    font-size: 0.7rem;
+    line-height: inherit;
+    color: rgb(194, 189, 189);
+    font-style:italic;
+    margin-inline-start: 0.5rem;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+.book-result-preview:hover button{
+   /* border:1px solid black; */
+  
+ opacity: 1;
+   
+}
+.book-result-preview button{
+    background-color: transparent;
+    border:none;
+    border-radius:50%;
+    opacity: 0;
+    cursor: pointer;
+    padding: 0;
+  
+}
+.book-result-preview button svg{
+    width: 0.8rem;
+    margin-inline-end: 0.5rem;
+}
+
+.book-result-preview button svg path{
+    fill:  rgb(0, 118, 253);
+
+}
+
+@media screen and (min-width:480px){
+
+    .header-search-container{
+        width:80%;
+    }
+}
+@media screen and (min-width:760px){
+
+    .header-search-container{
+        width:50%;
+    }
+}

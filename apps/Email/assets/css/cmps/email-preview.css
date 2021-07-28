@@ -1,0 +1,76 @@
+.email-preview {
+  min-height: 200px;
+  position: relative;
+  border: 0.5px solid rgb(212, 212, 212);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.preview-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-preview svg {
+  width: 20px;
+  height: 20px;
+}
+
+.email-preview * {
+  margin: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.email-preview:hover {
+  cursor: pointer;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 0.3s;
+}
+
+.email-preview:hover .quick-actions {
+  display: block;
+}
+
+.quick-actions {
+  display: none;
+  position: absolute;
+  bottom: 0;
+}
+
+.read {
+  background-color: inherit;
+}
+
+.unread .sender {
+  font-weight: bold;
+  color: #0051e7;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.email-preview .starred {
+  color: rgb(202, 202, 0);
+}
+
+.sender {
+  display: inline;
+  color: #002f86;
+}
+
+.from {
+  display: none;
+}
+
+.email-preview:hover .from {
+  display: inline;
+  color: #56a5ff78;
+}
+
+.time-details {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  color: #0051e7;
+}

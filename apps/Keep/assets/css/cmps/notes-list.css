@@ -1,0 +1,17 @@
+.notes-container{
+columns:1;
+min-height: 30vh;
+}
+
+
+@media screen and (min-width:480px){
+    .notes-container{
+    columns:2;
+    }
+}
+
+@media screen and (min-width:790px){
+    .notes-container{
+        columns:3;
+        }
+}

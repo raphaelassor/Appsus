@@ -1,0 +1,25 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+/* Base */
+@import './base.css';
+
+
+/* EmailApp */
+@import '../../apps/Email/assets/css/main.css';
+/* BookApp */
+@import '../../apps/Books/assets/css/main.css';
+
+/* KeepApp */
+@import '../../apps/Keep/assets/css/main.css';
+
+/* Pages */
+@import '../css/pages/home.css';
+
+/* HELPERS */
+@import './helpers.css';
+
+/* General CMPS */
+@import './cmps/app-header.css';
+@import './cmps/nav-apps.css';

@@ -1,0 +1,30 @@
+.app-header{
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+.app-header h1{
+margin: 0;
+}
+.app-header nav{
+    display:flex;
+}
+.app-header ul{
+    align-self: center;
+}
+.app-header a{
+    color: white;
+    text-decoration: none;
+}
+.app-header li{
+    margin-inline-start: 1rem;
+}
+
+.icon-apps{
+    align-self: center;
+}
+.app-header input{
+    opacity: 0;
+    position: absolute;
+}
